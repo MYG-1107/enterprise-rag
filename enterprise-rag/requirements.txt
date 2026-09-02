@@ -1,0 +1,20 @@
+cd enterprise-rag
+
+cat > requirements.txt <<'EOF'
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+pydantic-settings
+sqlalchemy
+asyncpg
+python-jose[cryptography]
+structlog
+pypdf
+python-docx
+beautifulsoup4
+numpy
+scikit-learn
+pytest
+httpx
+EOF
